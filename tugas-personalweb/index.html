@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: aqua;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: white;
+        border: 1px solid rgba(221, 211, 211, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="personalweb.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <a href="#" class="nama">Profil</a>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang saya</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#artikel">Artikel</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="menu" data-feather="menu"></a>
+      </div>
+    </nav>
+    <!--Home-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Hallo</h1>
+        <h2>Selamat datang, panggil saya rahma..</h2>
+        <h2>Terimakasih telah berkunjung</h2>
+      </main>
+    </section>
+    <!--Tentang saya-->
+    <section id="about" class="about">
+      <h2>Tentang Saya</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="img/foto-profil.jpg" width="100px" alt="Tentang Saya" />
+        </div>
+        <div class="grid-item">
+          <p>Nama Rahmawati Rahayu</p>
+          <p>email rahma.wt.rahayu@gmail.com</p>
+          <p>
+            Hai, perkenalkan saya seorang junior geologi yang menekuni bidang
+            sistem informasi geografis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--portofolio-->
+    <section id="portofolio" class="portofolio">
+      <h2>Portofolio</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            src="img/portofolio.jpg"
+            width="200px"
+            alt="portoo"
+            class="porto-sampel-img"
+          />
+          <h3 class="porto-sampel-judul">Pemetaan geologi</h3>
+          <p class="porto-sampel-isi">Wilayah Klagete</p>
+        </div>
+        <div class="grid-item">
+          <img
+            src="img/portofolio.jpg"
+            width="200px"
+            alt="portoo"
+            class="porto-sampel-img"
+          />
+          <h3 class="porto-sampel-judul">Pemetaan geologi 2</h3>
+          <p class="porto-sampel-isi">Wilayah A</p>
+        </div>
+        <div class="grid-item">
+          <img
+            src="img/portofolio.jpg"
+            width="200px"
+            alt="portoo"
+            class="porto-sampel-img"
+          />
+          <h3 class="porto-sampel-judul">Pemetaan geologi 3</h3>
+          <p class="porto-sampel-isi">Wilayah B</p>
+        </div>
+      </div>
+    </section>
+    <!--Artikel-->
+    <section id="artikel" class="artikel">
+      <h2>Artikel</h2>
+    </section>
+    <!--Icons-->
+    <script>
+      feather.replace();
+    </script>
+    <script src="personalweb.js"></script>
+  </body>
+</html>
