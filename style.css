@@ -1,0 +1,90 @@
+body {
+  background-color: turquoise;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(13, 236, 214);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px black;
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+h4 {
+  color: rgb(109, 103, 103);
+}
+.input-container {
+  margin-bottom: 10px;
+  text-align: left;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid azure;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+::placeholder {
+  text-align: center;
+}
+button {
+  background-color: #1d1ce5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+body {
+  background-color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(233, 238, 240);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+.input-container {
+  margin-bottom: 10px;
+  text-align: left;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid azure;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #1a529b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
